@@ -19,7 +19,6 @@
 #     'age':222,
 #     'height':6.4,
 # }
-## this is an challanges which are given by the chatgpt
 
 
 
@@ -73,3 +72,68 @@
 # skill=("python , djnaog, js")
 # user_report('meet',20,skill,dis)
     
+
+# 1. Class and Object
+# def txt(data):
+#     with open('data1.txt','a') as f:
+#         f.write(data)
+
+# class Human:
+#     def __init__(self,name,age,skill):
+#         self.name = name
+#         self.age = age
+#         self.skill= skill 
+#     def gret(name):
+#         print(f' Hello my buddy {name}')
+    
+    
+        
+# class developer(Human):
+#     def skilll(self):
+#         print(f'welcome back {self.name} your skill is {','.join(self.skill) } your age is {self.age}')
+        
+# class student:
+#     def __init__(self,mark,name,course):
+#         self.mark=mark
+#         self.name=name
+#         self.course=course
+#     def is_pass(self):
+#         if self.mark >= 40:
+#             return True
+#         else:
+#             return False
+
+# s1 = student(6,'komal','CSE_AIML')
+# s2 = student(76,'komalo','CSE')
+# s3 = student(46,'komali','IT')
+# results =[s1,s2,s3]
+# for i in results:
+#     status = 'passed' if i.is_pass else 'fail'
+#     txt(f'{i.name} of {i.course} is {status} beacuse it is  scored {i.mark}') 
+    
+    
+# def txt(msg):
+#     with open('detials.txt','a') as f:
+#         f.write(msg)
+        
+# for i in range(1,3):
+#     name = input('Enter your name ')
+#     feedback= input('Enter your Feedback ')
+#     txt(f'{name} : {feedback} \n')
+
+# with open('detials.txt','r') as f:
+#     content = f.read()
+#     print(content)
+    
+
+
+
+# for num in range(1,28):
+#     if (num%num==0 and num%1==0):
+#         print(f'{num } is prime number')
+#     else:
+#         print(f'{num} is not a prime number')
+
+
+
+
